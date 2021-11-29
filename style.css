@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background: #ddd;
+    padding: 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* information to start */
+.informations{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #666666;
+}
+.informations .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+}
+.informations .content .name{
+    border-radius: 42px;
+    outline: none;
+    color: white;
+    border: 2px solid #8bc34aed;
+    padding: 15px 20px;
+    background: transparent;
+    width: 50%;
+    font-size: 18px;
+    margin: 50px auto;
+    text-align: center;
+}
+.informations .content .name::placeholder{
+    color: white;
+}
+.start{
+    display: block;
+    background: #8bc34a;
+    width: 18%;
+    margin: auto;
+    color: white;
+    padding: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.title{
+    display: block;
+    background-color: #8bc34aed;
+    width: 41%;
+    text-align: center;
+    margin:10px auto;
+    color: white;
+    padding: 10px;
+    border-radius: 10em;
+}
+.content{
+    background-color:#666 ;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    /* margin:20px 0  0 0; */
+    color: white;
+    padding: 10px 15px;
+    width: 100%;
+    position: relative;
+}
+.info .persone-name{
+    color: #8bc34aed;
+}
+.info .numberofquestion{
+    color: #8bc34aed;
+}
+.info::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 60px;
+    width: 80%;
+    height: 2px;
+    background-color: #8bc34aed;
+}
+.questions{
+    margin-top: 20px;
+    color: white;
+      }
+      .answers{
+          margin: 50px auto;
+          padding-bottom:50px ;
+
+     
+      }
+      .answers label{
+          color: white;
+          margin-right: 15px;
+          cursor: pointer;
+      }
+
+      .buttons{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding-bottom:15px ;
+      }
+      .buttons .next{
+          display: block;
+          background: #8bc34aed;
+          color: #fff;
+          padding: 10px 20px;
+          border-radius: 10px;
+          cursor: pointer;
+          width: 120px;
+
+      }
+   
+      .show-result{
+        display: block;
+        background: #8bc34aed;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 134px;
+        display: none;  
+      }
+
+      /* pop result */
+      .pop-result{
+        background: #666666;
+        padding: 20px 0;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        border-radius: 9px;
+        display: none;
+      } 
+      .pop-result .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 24px;
+      }
+      .pop-result .content .name{
+          color: #8bc34a;
+      }
+.new{
+    cursor: pointer;
+}
+
+      
