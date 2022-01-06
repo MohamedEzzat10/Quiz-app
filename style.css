@@ -103,6 +103,7 @@
       .answers{
           margin: 50px auto;
           padding-bottom:50px ;
+          display: grid;
 
      
       }
@@ -127,7 +128,9 @@
           cursor: pointer;
           width: 120px;
 
+
       }
+   
    
       .show-result{
         display: block;
@@ -164,6 +167,19 @@
       }
 .new{
     cursor: pointer;
+    
 }
 
       
+.answer{
+    color: white;
+cursor: pointer;
+background: rgb(77, 54, 54);
+padding: 10px;
+border-radius: 6px;
+margin:  10px;
+}
+.answer.active{
+    background: #8bc34a;
+    color: #fff;
+}
